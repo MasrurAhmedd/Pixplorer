@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Popins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #F9DC5CFF;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 600;
+    color:#011936FF;
+}
+form{
+    width: 50%;
+    max-width: 600px;
+    margin: auto;
+    height:50px;
+    background :#F4FFFDFF;
+    display:flex;
+    align-items:center;
+    border-radius: 100px;
+
+}
+
+form input{
+    flex:1;
+    height:100%;
+    border:0;
+    outline:0;
+    background: transparent ;
+    color:#011936FF;
+    font-size: 18px;
+    padding:0 30px;
+}
+
+form button{
+    padding:0 40px;
+    height: 100%;
+    background:#ED254DFF;  
+    color:#fff;
+    font-size: 18px;
+    border: 0;
+    outline: 0 ;
+    border-top-right-radius: 100px ;
+    border-bottom-right-radius: 100px;
+    cursor:pointer;
+
+
+}
+
+#show-more-btn{
+    background:#ed254eff;
+    color: #fff;
+    border: 0;
+    outline:0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin:10px auto 100px;
+    cursor: pointer;
+    display:none ;
+}
+
+#search-result{
+    width:80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+#search-result img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius:5px;
+}
+
+
+.footer {
+    background-color: #011936FF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+/*#9fd5e6   #43b6d9
+id:632560
+acess key:  dyX-_MCbRKLhggT-xtguVxPUo8oPLk8bx33baQGrKSU
+secret key: 0Q0Z9NUaZbiBcO5Cd8VaVXeE0bDlFuhyTQfjJ-ZbdsU
